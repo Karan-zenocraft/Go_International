@@ -1,0 +1,31 @@
+
+@media only screen and (max-width: 991px){
+    
+    
+    
+    header nav ul li a{font-size: 10px;}
+    header nav ul li{margin: 0px 15px;}
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    
+    
+    
+}
+
+@media only screen and (max-width: 767px){
+header nav ul li a, header nav ul .active a{color: #fff}
+#scroll{right:20px}
+header nav{border-top: 1px solid #a5a5a5b0;}
+header nav{ position: absolute;top: 60px;z-index: 999999;background-color: #174477;width: 100%;left: 0;right: 0;margin-left: auto;border-top: 1px solid #333;
+margin-right: auto;display: none}
+header nav ul{display: unset!important;}
+header nav ul li{margin: 0 0;padding: 4px 8px;}
+header nav ul li a{display: block;padding: 8px 8px;}  
+nav ul li a:after{content: unset;}
+    
+}
+
+@media (min-width: 320px) and (max-width: 476px){
+   
+}
